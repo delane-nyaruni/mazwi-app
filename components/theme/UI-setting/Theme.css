@@ -1,0 +1,34 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    /* background-color: transparent !important; */
+    background-color: white !important;
+    /* color: black !important; */
+    color: white !important;
+}
+
+body.dark-mode {
+    /* background-color: #1a2035 !important; */
+      background-color: rgb(9, 67, 9)!important;
+
+    /* color: white !important; */
+        /* color: #1a2035 !important; */
+        color: rgb(9, 67, 9)!important;
+
+}
+.text-color{
+    color: silver !important;
+}
+.theme-forced-color{
+    background:currentColor !important;
+}
+
+/* .container {
+    text-align: center;
+    margin-top: 50px;
+} */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

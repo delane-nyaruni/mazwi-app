@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+/* 
+  background: #424242;
+   background: #e63f5d;
+   
+   background: #f8f8f8;
+   color: rgb(39, 38, 38);
+   */
+/*    
+   background: #282c34 !important;
+   color: whitesmoke !important; */
+     user-select: none !important;
+
+
+}
+
+.navbar {
+    border-bottom: solid .1px transparent;
+    background: #d2deebe4;
+    /* background: transparent; */
+    max-height: 5em !important;
+    z-index:  0 !important;
+  }
+  .bottom-tab-nav {
+    border-top: solid .1px transparent;
+    max-height: 4.5em !important;
+ 
+     background:currentColor !important;
+         /* background: rgb(9, 67, 9) !important; */
+
+      justify-content: space-between !important;
+  }
+
+  .nav-link,
+  .bottom-nav-link {
+    /* color: #55575b; */
+    color: rgb(74, 119, 245);
+
+  }
+
+  .bottom-nav-link:hover{
+    color: rgb(74, 119, 245);
+    color: blue;
+  }
+
+  .bottom-nav-link.active,
+  .top-nav-link.active {
+    color: rgb(16, 179, 16);
+  }
+ 
+  .topNavIcons{
+    position: relative;
+    margin: auto;
+    margin-right: 3.5em;
+    top: -.3em;
+  }
+  .mobileNavIcons{
+    position: relative;
+    top: -.6em;
+  }
+  .bottom-tab-label {
+    font-size: 12px;
+    position: relative;
+    top: -.6em;
+    text-align: center;
+    font-weight: bold;
+  }
+  .top-tab-label {
+    font-size: 13px;
+    position: relative;
+    top: -.6em;
+    text-align: center;
+    font-weight: bold;
+  }
+
